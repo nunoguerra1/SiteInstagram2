@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    max-width: 1100px;
+    padding: 20px;
+    gap: 60px;
+}
+
+.esquerda {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #00cfff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+.botoes a {
+    background-color: #00cfff;
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.botoes a:hover {
+    transform: scale(1.05);
+    background-color: #00aacc;
+}
+
+.direita {
+    position: relative;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 2.5px solid #00cfff;
+    border-radius: 16px;
+    border-left: 100px;
+    border-bottom: 10px;
+}
+
+.direita img {
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.curve {
+    position: absolute;
+    width: 150px;
+    left: 0%;
+}
+
+.curve-top {
+    bottom: 10px;
+}
+
+.curve-bottom {
+    bottom: 80px;
+}
+
+
+.star {
+    position: absolute;
+    color: #00cfff;
+    top: 260px;
+    right: 130px;
+    transform: rotate(15deg);
+    font-size: 50px;
+}
